@@ -76,3 +76,16 @@ pedido.mostrar_pedido()
 pedido.cambiar_estado("ENVIADO")
 
 print("\nNuevo estado:", pedido.estado)
+
+
+'''
+¿Cómo puede el mismo método producir comportamientos
+diferentes dependiendo del objeto que lo ejecuta?
+
+R = Se puede lograr de distintas formas, por ejemplo
+en este caso lo que se hizo fue multiplicar por el IVA
+dependiendo del artículo con el que se está caracterizando,
+ya sea un electrónico, una prenda de ropa o alimento.
+De esta forma se puede 'reutilizar' el método para que
+se obtengan distintos resultados con el artículo señalado.
+'''
