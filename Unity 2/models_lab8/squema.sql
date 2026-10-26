@@ -1,0 +1,9 @@
+CREATE DATABASE login_mvc;
+
+-- Conéctate a login_mvc y ejecuta:
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
