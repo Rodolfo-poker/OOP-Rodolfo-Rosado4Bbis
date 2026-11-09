@@ -1,6 +1,5 @@
 CREATE DATABASE login_mvc;
 
--- Conéctate a login_mvc y ejecuta:
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
