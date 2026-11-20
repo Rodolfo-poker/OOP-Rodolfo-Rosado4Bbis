@@ -24,5 +24,4 @@ You can add new pages (add_page), set a font for your words(set_font),
 and the most important function: save the archive into your system.
 There are some disadvantages such as line breaks manually and the limitation
 of characters because fpdf only support 'latin-1'.
-
 """

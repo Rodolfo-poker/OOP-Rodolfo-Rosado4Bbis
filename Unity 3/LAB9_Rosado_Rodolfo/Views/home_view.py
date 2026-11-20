@@ -30,9 +30,6 @@ class DashboardVentana:
         self.notebook.pack(fill="both", expand=True, padx=20, pady=10)
 
         # pestaña 1: Inicio
-
-        
-        # pestaña 1: Inicio
         self.frame_inicio = tk.Frame(self.notebook, bg="white")
         self.notebook.add(self.frame_inicio, text="Inicio")
 

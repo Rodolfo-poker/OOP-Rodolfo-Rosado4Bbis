@@ -9,12 +9,10 @@ class Producto:
         self.db = Database_connection()
 
     def obtener_todos(self):
-        "Retorna una lista con todos los productos registrados."
         query = "SELECT id_producto AS id, nombre, precio, stock FROM productos"
         return self.db.ejecutar_consulta(query)
 
     def guardar(self):
-        "Insertar un nuevo producto en la base de datos."
         query = "INSERT INTO productos (nombre, precio, stock) VALUES (%s, %s, %s)"
         conexion = self.db.get_connection()
         if not conexion:
